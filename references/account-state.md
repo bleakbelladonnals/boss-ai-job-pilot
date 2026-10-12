@@ -28,7 +28,7 @@ function guard(request) {
 }
 ```
 
-默认状态目录为 `${CODEX_HOME}/boss-ai-job-outreach`；未设置 `CODEX_HOME` 时使用 `~/.codex/boss-ai-job-outreach`。正式任务必须共用该目录；`--state-dir` 只用于隔离测试，不能用于绕过历史、停止状态或占用。
+默认状态目录为 `${CODEX_HOME}/boss-ai-job-pilot`；未设置 `CODEX_HOME` 时使用 `~/.codex/boss-ai-job-pilot`。正式任务必须共用该目录；`--state-dir` 只用于隔离测试，不能用于绕过历史、停止状态或占用。
 
 状态目录可能包含账号配置、发送记录和运行证据，不属于 Skill 分发包，不得分享给其他人。工具不保存 Cookie、Token、密码或验证码。
 

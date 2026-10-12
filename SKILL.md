@@ -1,9 +1,9 @@
 ---
-name: boss-ai-job-outreach
+name: boss-ai-job-pilot
 description: 在 BOSS 直聘网页版按求职者已确认的城市、AI 产品岗位、薪资、经验、行业和招聘者活跃度规则筛选职位，并在明确授权后使用该求职者批准的话术逐一打招呼和核验送达。用于只读流程检查、手动批次投递、恢复未完成批次或用户明确要求的定时投递；不用于修改简历或操作其他招聘平台。
 ---
 
-# BOSS AI 岗位投递
+# BOSS AI Job Pilot
 
 通过 `ego-browser` 操作 BOSS 直聘网页版。执行任何网页动作前，完整读取并遵守 `ego-browser` Skill；整个批次使用同一任务空间，并按其规则结束或交还任务空间。
 

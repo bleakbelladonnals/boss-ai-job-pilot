@@ -1,4 +1,4 @@
 interface:
-  display_name: "BOSS AI 岗位投递"
+  display_name: "BOSS AI Job Pilot"
   short_description: "按个人规则筛选 BOSS AI 产品岗位，并在授权后发送话术"
-  default_prompt: "使用 $boss-ai-job-outreach 先核对我的账号和筛选规则；未经我明确授权不要发送消息。"
+  default_prompt: "使用 $boss-ai-job-pilot 先核对我的账号和筛选规则；未经我明确授权不要发送消息。"

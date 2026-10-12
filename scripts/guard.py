@@ -345,7 +345,7 @@ def execute(request, directory):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     codex_home = Path(os.environ.get("CODEX_HOME", Path.home() / ".codex"))
-    parser.add_argument("--state-dir", default=str(codex_home / "boss-ai-job-outreach"))
+    parser.add_argument("--state-dir", default=str(codex_home / "boss-ai-job-pilot"))
     args = parser.parse_args()
     try:
         result = execute(json.load(sys.stdin), args.state_dir)
